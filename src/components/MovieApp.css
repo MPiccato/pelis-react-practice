@@ -1,0 +1,44 @@
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 20px 25px rgb(56, 101, 101);
+
+}
+
+h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+
+button {
+
+    padding: 10px 20px;
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 3px;
+    transition: 0.5s all ease;
+}
+
+button:hover {
+    background-color: rgb(147, 84, 206);
+    font-size: 18px;
+}
