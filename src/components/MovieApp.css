@@ -42,3 +42,24 @@ button:hover {
     background-color: rgb(147, 84, 206);
     font-size: 18px;
 }
+
+.movie-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax( 200px, 1fr));
+    gap: 20px;
+}
+.movie-card {
+    
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 20px 25px rgb(56, 101, 101) ;
+}
+
+.movie-card img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+.movie-card p{
+    font-size: 12px;
+}
